@@ -1,0 +1,25 @@
+#processing-modal {
+	overflow-y: scroll;
+	overflow-x: auto;
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	z-index: 1040;
+	opacity: 0.5;
+	display: block;
+	transition: opacity 0.15s linear;
+	-webkit-transition: opacity 0.15s linear;
+	background-color: black;
+	display: none;
+}
+
+.processing-status {
+	display: block;
+	position: absolute;
+	left: 40%;
+	top: 45%;
+	font-size: 25px;
+	color: white;
+}
